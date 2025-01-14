@@ -1,0 +1,60 @@
+Now server is daemon!..Count players: 0
+
+New client fd: 0 PORT: 55040 len: 16 count: 0
+From player fd: 0 Data in buffer: start 123
+Player fd: 0 started game with psw: 123
+
+
+Server listening (players: 1 moves: 0 last player fd: 0)...
+
+New client fd: 2 PORT: 55052 len: 16 count: 1
+From player fd: 2 Data in buffer: join 32
+
+Server listening (players: 1 moves: 0 last player fd: 2)...
+
+From player fd: 2 Data in buffer: join 123
+Player fd: 2 connected to game with psw: 123
+
+
+Server listening (players: 2 moves: 1 last player fd: 2)...
+
+From player fd: 0 Data in buffer: move 0 0
+Server listening (players: 2 moves: 2 last player fd: 0)...
+
+From player fd: 2 Data in buffer: move 1 2
+Server listening (players: 2 moves: 3 last player fd: 2)...
+
+From player fd: 0 Data in buffer: move 1 1
+Server listening (players: 2 moves: 4 last player fd: 0)...
+
+From player fd: 2 Data in buffer: move 0 4
+Server listening (players: 2 moves: 5 last player fd: 2)...
+
+From player fd: 0 Data in buffer: move 3 3
+Server listening (players: 2 moves: 6 last player fd: 0)...
+
+From player fd: 2 Data in buffer: move 4 0
+Server listening (players: 2 moves: 7 last player fd: 2)...
+
+From player fd: 0 Data in buffer: move 4 4
+Server listening (players: 2 moves: 8 last player fd: 0)...
+
+From player fd: 0 Data in buffer: move 2 2Player fd: 0 win the game!
+
+Server listening (players: 2 moves: 9 last player fd: 0)...
+
+Client with fd=0 closed connection.
+
+Server listening (players: 1 moves: 9 last player fd: 0)...
+
+From player fd: 2 Data in buffer: move 2 3
+Server listening (players: 1 moves: 9 last player fd: 2)...
+
+From player fd: 2 Data in buffer: move 3 2
+Server listening (players: 1 moves: 9 last player fd: 2)...
+
+Client with fd=2 closed connection.
+
+Server listening (players: 0 moves: 9 last player fd: 2)...
+
+Server shutting down...
