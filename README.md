@@ -4,6 +4,7 @@ Client and server on UNIX streaming sockets TCP.
 Fixing the current state (still in an unfinished form)...
 
 =========================================================
+
 cd /home/...
 
 gcc client.c common.c -o client
